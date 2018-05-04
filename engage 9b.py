@@ -62,8 +62,22 @@ else:
 #5) Desenvolva uma App em Python que imprima a soma do menor com o maior valor de
 #um conjunto de N números lidos do teclado. N deve ser fornecido antes da entrada do
 #conjunto.
+"""
+n = int(input("insert the number of values: "))
+valor= int(input("Insert a value: "))
+maior = valor
+menor = valor
+cont = 1
 
-
+while n > cont:
+    valor = int(input("Insert a value:"))
+    if valor > maior:
+        maior = valor
+    elif valor < menor:
+        menor = valor
+    cont += 1
+print (maior + menor)
+"""
 
 
 
